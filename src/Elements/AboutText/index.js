@@ -18,6 +18,10 @@ export const AboutText = styled.article`
         padding: 5px 0 0 22px;
     }
 
+    a {
+        color: #FBFEF9;
+    }
+
 
     ${media.tablet} {
         font-size: 1.5rem;
