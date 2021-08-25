@@ -5,8 +5,9 @@ import { AboutText } from '../../Elements/AboutText/'
 
 import SectionTitle from '../SectionTitle/'
 
-// left-off:
-// putting learning links in
+// to do
+// figure out how to make links stand out
+//      the pink and blue don't have good contrast
 
 function About({ theme }) {
     console.log(theme)
