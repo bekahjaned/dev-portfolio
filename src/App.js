@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Header />
+      <Header theme={theme.white} />
       <About theme={theme.blue} />
       <Work theme={theme.white}/>
     </div>

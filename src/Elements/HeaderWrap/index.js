@@ -6,11 +6,13 @@ const media = {
  };
 
  export const HeaderWrap = styled.header`
-    margin-top: 139px;
+    margin: 139px 0;
     padding: 0 53px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: ${props => props.background};
+    color: ${props => props.color};
 
     .header-text {
         text-align: center;
@@ -59,6 +61,7 @@ const media = {
         padding: 0 180px;
         flex-direction: row;
         height: 100vh;
+        min-height: 800px;
 
         .header-text {
             text-align: left;

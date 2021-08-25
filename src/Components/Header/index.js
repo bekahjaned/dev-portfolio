@@ -4,9 +4,9 @@ import { HeaderWrap } from '../../Elements/HeaderWrap/'
 
 import MyPhoto from '../../Assets/photo-me.jpg'
 
-function Header() {
+function Header({ theme }) {
     return (
-        <HeaderWrap>
+        <HeaderWrap backgound={theme.backgound} color={theme.color}>
             <div className="header-text">
                 <h1>Rebekah De Jong</h1>
                 <p>A front-end developer who is passionate about doing good & helping others do good</p>
