@@ -4,13 +4,24 @@ import { ProjectsContainerWrap } from '../../Elements/ProjectsContainerWrap/'
 
 import ProjectCard from '../ProjectCard'
 
-// this can house the mapping function for showing project info
+import projects from '../../Assets/Data/projects.json'
 
 function ProjectsContainer() {
+    
+    const showProjects = projects.map(project => {
+        return (
+            <ProjectCard
+                title={project.title}
+                image={project.image}
+                description={project.description}
+                live={project.live}
+                github={project.github}
+            />
+        )
+    })
     return (
         <ProjectsContainerWrap>
-            <ProjectCard />
-            <ProjectCard />
+            {showProjects}
         </ProjectsContainerWrap>
     )
 }
