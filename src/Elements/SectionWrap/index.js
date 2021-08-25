@@ -5,6 +5,9 @@ const media = {
     tablet: "@media(min-width: 768px)"
  };
 
+//  to do
+//    add min-height for desktop
+
 export const SectionWrap = styled.section`
     padding: 0 53px;
     padding-bottom: 80px;
