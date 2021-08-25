@@ -5,10 +5,6 @@ const media = {
     tablet: "@media(min-width: 768px)"
  };
 
-//  left off
-//      styling
-//      how do I do the hover...
-
 export const ProjectCardWrap = styled.article`
     margin-top: 30px;
     font-size: 1rem;
@@ -23,6 +19,19 @@ export const ProjectCardWrap = styled.article`
     h3, p, .project-links {
         padding-top: 13px;
     }
+
+    a {
+        color: #BE4D79;
+    }
+
+    a:hover {
+        color: #A24267;
+    }
+
+    a:active {
+        color: #712E48;
+    }
+
 
     ${media.tablet} {
         font-size: 1.5rem;
