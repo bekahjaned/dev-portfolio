@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './Components/NavBar/'
 import Header from './Components/Header/'
 import About from './Components/About/'
+import Work from './Components/Work/'
 
 function App() {
   const theme = {
@@ -20,6 +21,7 @@ function App() {
       <NavBar />
       <Header />
       <About theme={theme.blue} />
+      <Work />
     </div>
   );
 }

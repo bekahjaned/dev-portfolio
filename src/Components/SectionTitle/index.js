@@ -12,10 +12,9 @@ function SectionTitle({ color, id, title }) {
     return (
         <SectionTitleWrap data-aos="fade-down" color={color}>
             <h2 id={id}>{title}</h2>
-            <hr />
+            <hr data-aos="line-grows" />
         </SectionTitleWrap>
     )
 }
 
 export default SectionTitle
-// data aos not working

@@ -12,6 +12,7 @@ export const SectionTitleWrap = styled.div`
     h2 {
         font-size: 1.5rem;
         color: ${props => props.color};
+        
     }
 
     hr {
@@ -20,7 +21,18 @@ export const SectionTitleWrap = styled.div`
         background: ${props => props.color};
         border-radius: 2px;
         border: 0 none;
-     }
+    }
+
+    [data-aos="line-grows"] {
+        transform: scaleX(0);
+        transform-origin: bottom left;
+        transition-property: transform;
+    }
+      
+    [data-aos="line-grows"].aos-animate {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
 
     ${media.tablet} {
         padding-top: 92px;
@@ -42,13 +54,3 @@ export const SectionTitleWrap = styled.div`
        
 `
 
-// [data-aos="line-grows"] {
-//     transform: scaleX(0);
-//     transform-origin: bottom left;
-//     transition-property: transform;
-// }
-  
-// [data-aos="line-grows"].aos-animate {
-//     transform: scaleX(1);
-//     transform-origin: bottom left;
-// }
