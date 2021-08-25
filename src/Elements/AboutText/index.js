@@ -5,7 +5,7 @@ const media = {
     tablet: "@media(min-width: 768px)"
  };
 
-export const AboutText = styled.article`
+export const AboutText = styled.div`
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.02em;
@@ -20,6 +20,10 @@ export const AboutText = styled.article`
 
     a {
         color: #FBFEF9;
+    }
+
+    a:hover {
+        color: #BE4D79;
     }
 
 

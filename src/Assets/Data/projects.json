@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Animal Crossing Now",
+        "image": "animal-crossing-now",
+        "description": "The app that Animal Crossing fans have been waiting for! This application will display all fish and bugs that can be caught now depending on the user's time, date and hemisphere.",
+        "live": "https://animal-crossing-now.vercel.app/",
+        "github": "https://github.com/bekahjaned/animal-crossing-now"
+    },
+    {
+        "title": "News Feed",
+        "image": "news-feed",
+        "description": "A front-end application that displays a simple dashboard with a news feed. The articles are retrieved from the New York Times API. Users may add articles to and remove from a Favourites side panel.",
+        "live": "https://what-is-new.vercel.app/",
+        "github": "https://github.com/bekahjaned/news-feed"
+    }
+]
+
