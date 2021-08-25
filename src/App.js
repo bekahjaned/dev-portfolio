@@ -21,7 +21,7 @@ function App() {
       <NavBar />
       <Header />
       <About theme={theme.blue} />
-      <Work />
+      <Work theme={theme.white}/>
     </div>
   );
 }

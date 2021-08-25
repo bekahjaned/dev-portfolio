@@ -1,10 +1,14 @@
 import React from 'react'
 
-function Work() {
+import { SectionWrap } from '../../Elements/SectionWrap'
+
+import SectionTitle from '../SectionTitle'
+
+function Work({ theme }) {
     return (
-        <div>
-            my work
-        </div>
+        <SectionWrap background={theme.background} color={theme.color}>
+            <SectionTitle id="work" title="Work" color={theme.color} />
+        </SectionWrap>
     )
 }
 
