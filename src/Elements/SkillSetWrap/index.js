@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const media = { 
-    bigDesktop: "@media(min-width: 1400px)",
+    bigDesktop: "@media(min-width: 1560px)",
+    midDesktop: "@media(min-width: 1400px)",
     desktop: "@media(min-width: 1200px)",
     smallDesktop: "@media(min-width: 940px)",
     tablet: "@media(min-width: 600px)"
@@ -27,7 +28,11 @@ export const SkillSetWrap = styled.article`
         grid-template-columns: repeat(5, auto);
     }
 
-    ${media.bigDesktop} {
+    ${media.midDesktop} {
         grid-template-columns: repeat(6, auto);
+    }
+
+    ${media.bigDesktop} {
+        grid-template-columns: repeat(7, auto);
     }
 `
