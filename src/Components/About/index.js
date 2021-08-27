@@ -4,6 +4,7 @@ import { SectionWrap } from '../../Elements/SectionWrap/'
 import { AboutText } from '../../Elements/AboutText/'
 
 import SectionTitle from '../SectionTitle/'
+import Subtitle from '../Subtitle'
 
 // to do
 // figure out how to make links stand out
@@ -15,7 +16,7 @@ function About({ theme }) {
         <SectionWrap background={theme.background} color={theme.color}>
             <SectionTitle color={theme.color} id="about" title="About"/>
             <AboutText>
-                <h3>Rebekah is a developer with a background in graphic & layout design.</h3>
+                <Subtitle color={theme.color} title="Rebekah is a developer with a background in graphic & layout design." />
                 <p>Before discovering web development, Rebekah worked as a desktop publisher and graphic designer. This background allows her to use her knowledge of design with a love of problem solving and a need to learn new things. Rebekah’s adaptability, consistency, and strong desire for collaboration help her to succeed in any role.</p>
                 <p>Rebekah is a lifelong learner. Currently she’s curious about:</p>
                 <ul>

@@ -1,0 +1,52 @@
+[
+    {
+        "development": [
+            {
+                "name": "HTML",
+                "image": "html5"
+            },
+            {
+                "name": "CSS",
+                "image": "css3"
+            },
+            {
+                "name": "JavaScript",
+                "image": "javascript"
+            },
+            {
+                "name": "React JS",
+                "image": "react"
+            },
+            {
+                "name": "jQuery",
+                "image": "jquery"
+            },
+            {
+                "name": "Sass",
+                "image": "sass"
+            },
+            {
+                "name": "Git",
+                "image": "git"
+            }
+        ],
+        "design": [
+            {
+                "name": "Adobe InDesign",
+                "image": "indesign"
+            },
+            {
+                "name": "Adobe Illustrator",
+                "image": "illustrator"
+            },
+            {
+                "name": "Adobe Photoshop",
+                "image": "photoshop"
+            },
+            {
+                "name": "Figma",
+                "image": "figma"
+            }
+        ]
+    }
+]

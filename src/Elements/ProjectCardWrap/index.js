@@ -16,8 +16,8 @@ export const ProjectCardWrap = styled.article`
         width: 100%;
     }
 
-    h3, p, .project-links {
-        padding-top: 13px;
+    p, .project-links {
+        margin-top: 13px;
     }
 
     a {
@@ -37,8 +37,8 @@ export const ProjectCardWrap = styled.article`
         font-size: 1.5rem;
         line-height: 1.8rem;
 
-        h3, p, .project-links {
-            padding-top: 26px;
+        p, .project-links {
+            margin-top: 26px;
         }
     }
 
@@ -48,8 +48,8 @@ export const ProjectCardWrap = styled.article`
             width: 100%;
         }
 
-        h3, p, .project-links {
-            padding-top: 30px;
+        p, .project-links {
+            margin-top: 30px;
             
         }
     }

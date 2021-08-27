@@ -11,11 +11,13 @@ function ProjectsContainer() {
     const showProjects = projects.map(project => {
         return (
             <ProjectCard
+                key={project.title}
                 title={project.title}
                 image={project.image}
                 description={project.description}
                 live={project.live}
                 github={project.github}
+                color="#0A100D"
             />
         )
     })
