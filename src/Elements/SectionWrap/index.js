@@ -19,7 +19,6 @@ export const SectionWrap = styled.section`
     ${media.desktop} {
         padding: 0 180px;
         margin: 0;
-        height: 100vh;
-        min-height: 800px;
+        min-height: 100vh;
     }
 `
