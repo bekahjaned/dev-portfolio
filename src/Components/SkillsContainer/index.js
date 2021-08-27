@@ -1,15 +1,17 @@
 import React from 'react'
 
+import { SkillsContainerWrap } from '../../Elements/SkillsContainerWrap/'
+
 import SkillSet from '../SkillSet/'
 
 function SkillsContainer() {
     return (
-        <div>
+        <SkillsContainerWrap>
             <h3>Development:</h3>
             <SkillSet type="development" />
             <h3>Design:</h3>
             <SkillSet type="design" />
-        </div>
+        </SkillsContainerWrap>
     )
 }
 

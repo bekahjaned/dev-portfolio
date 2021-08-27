@@ -1,11 +1,13 @@
 import React from 'react'
 
+import { SkillItemWrap } from '../../Elements/SkillItemWrap/'
+
 function SkillItem({ name, image }) {
     console.log(name, image)
     return (
-        <div>
+        <SkillItemWrap>
             <img alt={name} src={ require(`../../Assets/Skills/${image}.svg`).default } />
-        </div>
+        </SkillItemWrap>
     )
 }
 
