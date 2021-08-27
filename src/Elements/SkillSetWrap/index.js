@@ -15,6 +15,7 @@ export const SkillSetWrap = styled.article`
     grid-column-gap: 60px;
     grid-row-gap: 30px;
     justify-content: start;
+    padding-bottom: 20px;
 
     ${media.tablet} {
         grid-template-columns: repeat(3, auto);
