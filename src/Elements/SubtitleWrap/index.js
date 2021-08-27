@@ -5,42 +5,20 @@ const media = {
     tablet: "@media(min-width: 768px)"
  };
 
-export const AboutText = styled.div`
+export const SubtitleWrap = styled.article`
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.02em;
-    
-    p {
-        margin-top: 18px;
-    }
-
-    ul {
-        margin: 5px 0 0 22px;
-    }
-
-    a {
-        color: #FBFEF9;
-    }
-
-    a:hover {
-        color: #BE4D79;
-    }
-
+    margin-top: 18px;
+    color: ${props => props.color};
 
     ${media.tablet} {
         font-size: 1.5rem;
         line-height: 1.8rem;
-    }
-
-    p {
         margin-top: 30px;
     }
 
     ${media.desktop} {
-        p  {
-            margin-top: 40px;
-        }
+        margin-top: 40px;
     }
-    
-    
 `

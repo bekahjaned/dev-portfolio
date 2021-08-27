@@ -9,7 +9,7 @@ function Skills({ theme }) {
     return (
         <SectionWrap background={theme.background} color={theme.color}>
             <SectionTitle id="skills" title="Skills" color={theme.color} />
-            <SkillsContainer />
+            <SkillsContainer color={theme.color} />
         </SectionWrap>
     )
 }

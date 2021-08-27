@@ -1,17 +1,16 @@
 import React from 'react'
 
-import { SkillsContainerWrap } from '../../Elements/SkillsContainerWrap/'
-
+import Subtitle from '../Subtitle'
 import SkillSet from '../SkillSet/'
 
-function SkillsContainer() {
+function SkillsContainer({ color }) {
     return (
-        <SkillsContainerWrap>
-            <h3>Development:</h3>
+        <div>
+            <Subtitle color={color} title="Development:" />
             <SkillSet type="development" />
-            <h3>Design:</h3>
+            <Subtitle color={color} title="Design:" />
             <SkillSet type="design" />
-        </SkillsContainerWrap>
+        </div>
     )
 }
 

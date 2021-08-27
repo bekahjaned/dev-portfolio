@@ -17,6 +17,7 @@ function ProjectsContainer() {
                 description={project.description}
                 live={project.live}
                 github={project.github}
+                color="#0A100D"
             />
         )
     })
