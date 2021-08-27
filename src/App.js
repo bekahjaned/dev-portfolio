@@ -4,6 +4,7 @@ import Header from './Components/Header/'
 import About from './Components/About/'
 import Work from './Components/Work/'
 import Skills from './Components/Skills/'
+import Contact from './Components/Contact/'
 
 function App() {
   const theme = {
@@ -24,6 +25,7 @@ function App() {
       <About theme={theme.blue} />
       <Work theme={theme.white} />
       <Skills theme={theme.blue} />
+      <Contact theme={theme.white}/>
     </div>
   );
 }
