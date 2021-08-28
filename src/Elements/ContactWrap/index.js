@@ -36,6 +36,9 @@ export const ContactWrap = styled.section`
     }
 
     ${media.tablet} {
+        padding: 0 127px;
+        padding-bottom: 113px;
+
         p {
             font-size: 1.5rem;
             line-height: 1.333em;
