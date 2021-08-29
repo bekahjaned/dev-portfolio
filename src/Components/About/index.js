@@ -7,10 +7,6 @@ import SectionTitle from '../SectionTitle/'
 import Subtitle from '../Subtitle/'
 import Link from '../Link/'
 
-// to do
-// figure out how to make links stand out
-//      the pink and blue don't have good contrast
-
 function About({ theme }) {
     console.log(theme)
     return (

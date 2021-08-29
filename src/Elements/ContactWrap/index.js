@@ -6,8 +6,7 @@ const media = {
  };
 
 export const ContactWrap = styled.section`
-    padding: 0 53px;
-    padding-bottom: 113px;
+    padding: 0 53px 113px 53px;
 
     .content {
         margin-top: 17px;
@@ -19,6 +18,9 @@ export const ContactWrap = styled.section`
         text-align: left;
         font-size: 1rem;
         line-height: 1.5em;
+    }
+
+    p.add-margin {
         margin-bottom: 18px;
     }
 
@@ -32,19 +34,18 @@ export const ContactWrap = styled.section`
         border-radius: 50%;
         order: 2;
         align-self: center;
-        margin: 25px 0 43px 0;
+        margin-top: 55px;
     }
 
     ${media.tablet} {
-        padding: 0 127px;
-
-        img.contact-image {
-            margin-bottom: 55px;
-        }
+        padding: 0 127px 92px 127px;
         
         p {
             font-size: 1.5rem;
             line-height: 1.8rem;
+        }
+
+        p.add-margin {
             margin-bottom: 30px;
         }
     }
@@ -52,8 +53,7 @@ export const ContactWrap = styled.section`
 
     ${media.desktop} {
         margin: 0;
-        padding: 0 180px;
-        padding-bottom: 113px;
+        padding: 0 180px 113px 180px;
 
         .content {
             margin-top: 45px;
@@ -74,7 +74,7 @@ export const ContactWrap = styled.section`
             order: 2;
         }
 
-        p {
+        p.add-margin {
             margin-bottom: 40px;
         }
     }
