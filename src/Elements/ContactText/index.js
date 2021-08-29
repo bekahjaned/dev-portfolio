@@ -19,14 +19,6 @@ export const ContactText = styled.div`
         margin-top: 18px;
     }
 
-    a {
-        color: #FBFEF9;
-    }
-
-    a:hover {
-        color: #BE4D79;
-    }
-
 
     ${media.tablet} {
         font-size: 1.5rem;

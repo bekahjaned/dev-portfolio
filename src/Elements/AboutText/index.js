@@ -18,13 +18,7 @@ export const AboutText = styled.div`
         margin: 5px 0 0 22px;
     }
 
-    a {
-        color: #FBFEF9;
-    }
 
-    a:hover {
-        color: #BE4D79;
-    }
 
 
     ${media.tablet} {

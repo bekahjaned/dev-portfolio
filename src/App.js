@@ -11,11 +11,15 @@ function App() {
   const theme = {
     blue: {
       background: "#156E78",
-      color: "#FBFEF9"
+      color: "#FBFEF9",
+      link: "#F8FAA2",
+      linkHover: "#ECEF4C"
     },
     white: {
       background: "#FBFEF9",
-      color: "#0A100D"
+      color: "#0A100D",
+      link: "#8C244D",
+      linkHover: "#590928"
     }
   }
 
