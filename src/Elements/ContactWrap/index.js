@@ -19,7 +19,7 @@ export const ContactWrap = styled.section`
         text-align: left;
         font-size: 1rem;
         line-height: 1.5em;
-        margin-bottom: 17px;
+        margin-bottom: 18px;
     }
 
     .text-group {
@@ -32,16 +32,20 @@ export const ContactWrap = styled.section`
         border-radius: 50%;
         order: 2;
         align-self: center;
-        margin-top: 25px;
+        margin: 25px 0 43px 0;
     }
 
     ${media.tablet} {
         padding: 0 127px;
-        padding-bottom: 113px;
 
+        img.contact-image {
+            margin-bottom: 55px;
+        }
+        
         p {
             font-size: 1.5rem;
-            line-height: 1.333em;
+            line-height: 1.8rem;
+            margin-bottom: 30px;
         }
     }
 
@@ -71,7 +75,7 @@ export const ContactWrap = styled.section`
         }
 
         p {
-            margin-bottom: 25px;
+            margin-bottom: 40px;
         }
     }
 
