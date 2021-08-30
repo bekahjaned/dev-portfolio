@@ -17,19 +17,7 @@ export const ProjectCardWrap = styled.article`
     }
 
     p, .project-links {
-        margin-top: 13px;
-    }
-
-    a {
-        color: #BE4D79;
-    }
-
-    a:hover {
-        color: #A24267;
-    }
-
-    a:active {
-        color: #712E48;
+        margin-top: 18px;
     }
 
 
@@ -38,7 +26,7 @@ export const ProjectCardWrap = styled.article`
         line-height: 1.8rem;
 
         p, .project-links {
-            margin-top: 26px;
+            margin-top: 30px;
         }
     }
 
@@ -49,7 +37,7 @@ export const ProjectCardWrap = styled.article`
         }
 
         p, .project-links {
-            margin-top: 30px;
+            margin-top: 40px;
             
         }
     }

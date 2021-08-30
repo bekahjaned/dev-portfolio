@@ -6,19 +6,17 @@ const media = {
  };
 
 export const SectionWrap = styled.section`
-    padding: 0 53px;
-    padding-bottom: 80px;
+    padding: 0 53px 80px 53px;
     background-color: ${props => props.background};
     color: ${props => props.color};
 
     ${media.tablet} {
-        padding: 0 127px;
-        padding-bottom: 92px;
+        padding: 0 127px 92px 127px;
     }
 
     ${media.desktop} {
-        padding: 0 180px;
+        padding: 0 180px 113px 180px;
         margin: 0;
-        min-height: 100vh;
+        height: 100%;
     }
 `

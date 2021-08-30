@@ -6,7 +6,7 @@ import ProjectCard from '../ProjectCard'
 
 import projects from '../../Assets/Data/projects.json'
 
-function ProjectsContainer() {
+function ProjectsContainer({ color, linkColor, hover }) {
     
     const showProjects = projects.map(project => {
         return (
@@ -17,7 +17,9 @@ function ProjectsContainer() {
                 description={project.description}
                 live={project.live}
                 github={project.github}
-                color="#0A100D"
+                color={color}
+                linkColor={linkColor}
+                hover={hover}
             />
         )
     })

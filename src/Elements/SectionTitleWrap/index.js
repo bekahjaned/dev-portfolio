@@ -7,7 +7,7 @@ const media = {
 
 export const SectionTitleWrap = styled.div`
     padding-top: 80px;
-    width: 100px;
+    width: 135px;
 
     h2 {
         font-size: 1.5rem;
@@ -36,7 +36,7 @@ export const SectionTitleWrap = styled.div`
 
     ${media.tablet} {
         padding-top: 92px;
-        width: 150px;
+        width: 145px;
     }
 
     h2 {

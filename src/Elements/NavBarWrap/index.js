@@ -25,7 +25,7 @@ export const NavBarWrap = styled.nav`
     }
 
     a:hover {
-        color: #FF68A2;
+        color: #ECEF4C;
     }
 
     ${media.tablet} {
