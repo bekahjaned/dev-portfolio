@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import { ProjectsContainerWrap } from '../../Elements/ProjectsContainerWrap/'
+import { ProjectsContainerWrap } from '../../Elements/ProjectsContainerWrap/';
 
-import ProjectCard from '../ProjectCard'
+import ProjectCard from '../ProjectCard';
 
-import projects from '../../Assets/Data/projects.json'
+import projects from '../../Assets/Data/projects.json';
 
 function ProjectsContainer({ color, linkColor, hover }) {
     
@@ -21,13 +21,14 @@ function ProjectsContainer({ color, linkColor, hover }) {
                 linkColor={linkColor}
                 hover={hover}
             />
-        )
-    })
+        );
+    });
+
     return (
         <ProjectsContainerWrap>
             {showProjects}
         </ProjectsContainerWrap>
-    )
-}
+    );
+};
 
-export default ProjectsContainer
+export default ProjectsContainer;

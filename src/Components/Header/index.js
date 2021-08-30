@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import { HeaderWrap } from '../../Elements/HeaderWrap/'
+import { HeaderWrap } from '../../Elements/HeaderWrap/';
 
-import MyPhoto from '../../Assets/photo-me.jpg'
+import aboutPhoto from '../../Assets/photo-me.jpg';
 
 function Header({ theme }) {
     return (
@@ -11,9 +11,9 @@ function Header({ theme }) {
                 <h1>Rebekah De&nbsp;Jong</h1>
                 <p>A front-end developer who is passionate about doing good & helping others do good</p>
             </div>
-            <img src={MyPhoto} alt="me" />
+            <img src={aboutPhoto} alt="me" />
         </HeaderWrap>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

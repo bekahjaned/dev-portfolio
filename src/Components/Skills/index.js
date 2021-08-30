@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import { SectionWrap } from '../../Elements/SectionWrap/'
+import { SectionWrap } from '../../Elements/SectionWrap/';
 
-import SectionTitle from '../SectionTitle/'
-import SkillsContainer from '../SkillsContainer/'
+import SectionTitle from '../SectionTitle/';
+import SkillsContainer from '../SkillsContainer/';
 
 function Skills({ theme }) {
     return (
@@ -11,7 +11,7 @@ function Skills({ theme }) {
             <SectionTitle id="skills" title="Skills" color={theme.color} />
             <SkillsContainer color={theme.color} />
         </SectionWrap>
-    )
-}
+    );
+};
 
-export default Skills
+export default Skills;

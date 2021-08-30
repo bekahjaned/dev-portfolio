@@ -1,5 +1,6 @@
-import React from 'react'
-import { NavBarWrap } from '../../Elements/NavBarWrap/'
+import React from 'react';
+
+import { NavBarWrap } from '../../Elements/NavBarWrap/';
 
 function NavBar() {
     return (
@@ -11,7 +12,7 @@ function NavBar() {
                 <a href="#contact">Contact</a>
             </div>
         </NavBarWrap>
-    )
-}
+    );
+};
 
-export default NavBar
+export default NavBar;

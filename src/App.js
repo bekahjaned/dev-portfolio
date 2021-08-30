@@ -1,11 +1,11 @@
 import './App.css';
-import NavBar from './Components/NavBar/'
-import Header from './Components/Header/'
-import About from './Components/About/'
-import Work from './Components/Work/'
-import Skills from './Components/Skills/'
-import Contact from './Components/Contact/'
-import Footer from './Components/Footer/'
+import NavBar from './Components/NavBar/';
+import Header from './Components/Header/';
+import About from './Components/About/';
+import Work from './Components/Work/';
+import Skills from './Components/Skills/';
+import Contact from './Components/Contact/';
+import Footer from './Components/Footer/';
 
 function App() {
   const theme = {
@@ -21,7 +21,7 @@ function App() {
       link: "#8C244D",
       linkHover: "#590928"
     }
-  }
+  };
 
   return (
     <div>
@@ -34,6 +34,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

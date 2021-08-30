@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import { SectionWrap } from '../../Elements/SectionWrap'
+import { SectionWrap } from '../../Elements/SectionWrap';
 
-import SectionTitle from '../SectionTitle'
-import ProjectsContainer from '../ProjectsContainer/'
+import SectionTitle from '../SectionTitle';
+import ProjectsContainer from '../ProjectsContainer/';
 
 function Work({ theme }) {
     return (
@@ -11,7 +11,7 @@ function Work({ theme }) {
             <SectionTitle id="work" title="Work" color={theme.color} />
             <ProjectsContainer color={theme.color} linkColor={theme.link} hover={theme.linkHover} />
         </SectionWrap>
-    )
-}
+    );
+};
 
-export default Work
+export default Work;

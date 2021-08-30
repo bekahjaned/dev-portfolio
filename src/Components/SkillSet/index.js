@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import { SkillSetWrap } from '../../Elements/SkillSetWrap/'
+import { SkillSetWrap } from '../../Elements/SkillSetWrap/';
 
-import SkillItem from '../SkillItem/'
+import SkillItem from '../SkillItem/';
 
-import skills from '../../Assets/Data/skills.json'
+import skills from '../../Assets/Data/skills.json';
 
 function SkillSet({ type }) {
     
@@ -15,15 +15,14 @@ function SkillSet({ type }) {
                 name={skill.name}
                 image={skill.image}
             />
-        )
-    })
-
+        );
+    });
 
     return (
         <SkillSetWrap>
             {showSkills}
         </SkillSetWrap>
-    )
-}
+    );
+};
 
-export default SkillSet
+export default SkillSet;

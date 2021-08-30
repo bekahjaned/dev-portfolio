@@ -1,14 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-import { SectionWrap } from '../../Elements/SectionWrap/'
-import { AboutText } from '../../Elements/AboutText/'
+import { SectionWrap } from '../../Elements/SectionWrap/';
+import { AboutText } from '../../Elements/AboutText/';
 
-import SectionTitle from '../SectionTitle/'
-import Subtitle from '../Subtitle/'
-import Link from '../Link/'
+import SectionTitle from '../SectionTitle/';
+import Subtitle from '../Subtitle/';
+import Link from '../Link/';
 
 function About({ theme }) {
-    console.log(theme)
     return (
         <SectionWrap background={theme.background} color={theme.color}>
             <SectionTitle color={theme.color} id="about" title="About"/>
@@ -23,7 +22,7 @@ function About({ theme }) {
                 </ul>
             </AboutText> 
         </SectionWrap>
-    )
-}
+    );
+};
 
-export default About
+export default About;
