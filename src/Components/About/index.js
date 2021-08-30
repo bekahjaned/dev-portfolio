@@ -18,7 +18,7 @@ function About({ theme }) {
                 <p>Rebekah is a lifelong learner. Currently she’s curious about:</p>
                 <ul>
                     <li><Link color={theme.link} hover={theme.linkHover} url="https://www.a11yproject.com/checklist/" text="accessibility" /> in web development</li>
-                    <li>inspiring Women in tech, like <Link color={theme.link} hover={theme.linkHover} url="ttps://developher.com/blog/" text="Lauren Hasson" /> and <Link color={theme.link} hover={theme.linkHover} url="https://barbaraoakley.com/books/a-mind-for-numbers/" text="Barbara Oakley" /></li>
+                    <li>inspiring Women in tech, like <Link color={theme.link} hover={theme.linkHover} url="https://developher.com/blog/" text="Lauren Hasson" /> and <Link color={theme.link} hover={theme.linkHover} url="https://barbaraoakley.com/books/a-mind-for-numbers/" text="Barbara Oakley" /></li>
                     <li>getting real-world experience building a product from start to finish with <Link color={theme.link} hover={theme.linkHover} url="https://www.joincolab.io/" text="Co.Lab" /></li>
                 </ul>
             </AboutText> 
