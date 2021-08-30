@@ -37,6 +37,14 @@ export const ContactWrap = styled.section`
         margin-top: 55px;
     }
 
+    a {
+        color: #8C244D;
+    }
+
+    a:hover {
+        color: #590928;
+    }
+
     ${media.tablet} {
         padding: 0 127px 92px 127px;
         

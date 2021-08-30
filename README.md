@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Welcome to My Portfolio!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is something I built to showcase my front-end skills and introduce myself.
 
-## Available Scripts
+## Stack
 
-In the project directory, you can run:
+This website was built is React JS and styled with Styled Components.
 
-### `yarn start`
+## Design
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I designed this website myself using Figma and used this [tool](https://toolness.github.io/accessible-color-matrix/?n=white&n=teal&n=black&n=dark%20teal&n=pinkish&n=dark%20pink&v=FBFEF9&v=156E78&v=0A100D&v=0B3B40&v=BE4D79&v=A24267) and the Stark plug-in in Figma to check for accesibility.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Screen sizes for mobile, tablet and desktop were considered in this design. It is responsive from 360px and up.
 
-### `yarn test`
+## Sections
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Header
 
-### `yarn build`
+This is where I introduce myself and summarize what I'm all about.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### About
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This section provides my background and qualities that make me a strong front-end developer. It also includes a list of things I am currently learning about.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Work
 
-### `yarn eject`
+This section shows off some of my strongest projects. I created a JSON file for my project information and imported it into ProjectCard component.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Skills
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This section shows off my skills, including coding languages I know as well as design softwares.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+All the icons in the Skills section were downloaded from [Simple Icons](https://simpleicons.org/).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+I used the [react-tooltip package](https://www.npmjs.com/package/react-tooltip) in this section so the user could see what each skill/software was, if they weren't familiar with the icon.
 
-## Learn More
+### Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section concludes the website with links to reach me at and lists a few other interests of mine.

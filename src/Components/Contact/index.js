@@ -14,7 +14,7 @@ function Contact({ theme }) {
             <div className="content">
                 <img className="contact-image" alt="me" src={myPhoto}/>
                 <div className="text-group">
-                    <p className="add-margin">You can reach Rebekah at bekahjaned@gmail.com or connect on <Link color={theme.link} hover={theme.linkHover} url="https://www.linkedin.com/in/rebekahdejong/" text="LinkedIn" /> or <Link color={theme.link} hover={theme.linkHover} url="https://github.com/bekahjaned" text="GitHub" /></p>
+                    <p className="add-margin">You can reach Rebekah at <a href="mailto: bekahjaned@gmail.com">bekahjaned@gmail.com</a> or connect on <Link color={theme.link} hover={theme.linkHover} url="https://www.linkedin.com/in/rebekahdejong/" text="LinkedIn" /> or <Link color={theme.link} hover={theme.linkHover} url="https://github.com/bekahjaned" text="GitHub" /></p>
                     <p>Rebekah is more than happy to discuss her front-end skills, as well as baking, soccer, needle-felting and shark movies.</p>
                 </div>
             </div>
