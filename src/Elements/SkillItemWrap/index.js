@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const media = { 
+    desktop: "@media(min-width: 1080px)",
     tablet: "@media(min-width: 400px)"
  };
 
@@ -16,6 +17,11 @@ export const SkillItemWrap = styled.article`
         height: 95px;
     }
 
+    p.skill-name {
+        padding-top: 10px;
+        text-align: center;
+    }
+
     ${media.tablet} {
         .tooltip {
             font-size: 1.1rem;
@@ -25,6 +31,12 @@ export const SkillItemWrap = styled.article`
         img {
             width: 120px;
             height: 120px;
+        }
+    }
+
+    ${media.desktop} {
+        p.skill-name {
+            display: none;
         }
     }
 `
