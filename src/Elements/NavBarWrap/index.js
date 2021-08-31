@@ -12,6 +12,8 @@ export const NavBarWrap = styled.nav`
     display: flex;
     align-items: center;
     justify-content: right;
+    position: fixed;
+    z-index: 1;
 
     .nav-links {
         padding-right: 35px; 
