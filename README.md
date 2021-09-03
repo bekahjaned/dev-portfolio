@@ -2,7 +2,7 @@
 
 This is something I built to showcase my front-end skills and introduce myself.
 
-View live portfolio [here](www.rebekah.dev)
+View live portfolio [here](https://www.rebekah.dev/)
 
 ## Stack
 
