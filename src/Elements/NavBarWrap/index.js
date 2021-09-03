@@ -14,6 +14,7 @@ export const NavBarWrap = styled.nav`
     justify-content: right;
     position: fixed;
     z-index: 1;
+    top: 0;
 
     .nav-links {
         padding-right: 35px; 
