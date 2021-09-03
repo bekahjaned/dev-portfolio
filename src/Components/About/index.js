@@ -13,7 +13,7 @@ function About({ theme }) {
             <SectionTitle color={theme.color} id="about" title="About"/>
             <AboutText>
                 <Subtitle color={theme.color} title="Rebekah is a developer with a background in graphic & layout design." />
-                <p>Before discovering web development, Rebekah worked as a desktop publisher and graphic designer. This background allows her to use her knowledge of design with a love of problem solving and a need to learn new things. Rebekah’s adaptability, consistency, and strong desire for collaboration help her to succeed in any role.</p>
+                <p>Before discovering web development, Rebekah worked as a desktop publisher and graphic designer. This background allows her to combine her knowledge of design with a love of problem solving and continuous learning. Rebekah’s adaptability, consistency, and strong desire for collaboration help her to succeed in any role.</p>
                 <p>Rebekah is a lifelong learner. Currently she’s curious about:</p>
                 <ul>
                     <li><Link color={theme.link} hover={theme.linkHover} url="https://www.a11yproject.com/checklist/" text="accessibility" /> in web development</li>
