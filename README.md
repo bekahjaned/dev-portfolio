@@ -2,6 +2,8 @@
 
 This is something I built to showcase my front-end skills and introduce myself.
 
+View live portfolio [here](www.rebekah.dev)
+
 ## Stack
 
 This website was built is React JS and styled with Styled Components.
