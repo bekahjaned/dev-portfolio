@@ -10,7 +10,7 @@ This website was built is React JS and styled with Styled Components.
 
 ## Design
 
-I designed this website myself using Figma and used this [tool](https://toolness.github.io/accessible-color-matrix/?n=white&n=teal&n=black&n=dark%20teal&n=pinkish&n=dark%20pink&v=FBFEF9&v=156E78&v=0A100D&v=0B3B40&v=BE4D79&v=A24267) and the Stark plug-in in Figma to check for accesibility.
+I designed this website myself using Figma and used this [tool](https://toolness.github.io/accessible-color-matrix/?n=white&n=teal&n=black&n=dark%20teal&n=pinkish&n=dark%20pink&v=FBFEF9&v=156E78&v=0A100D&v=0B3B40&v=BE4D79&v=A24267) and the Stark plug-in in Figma to check for colour accesibility.
 
 Screen sizes for mobile, tablet and desktop were considered in this design. It is responsive from 360px and up.
 
